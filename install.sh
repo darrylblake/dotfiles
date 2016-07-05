@@ -11,6 +11,9 @@ mkdir -p $backup
 # Change to the dotfiles directory
 cd $dir
 
+# Delete old backup
+rm -ri $backup
+
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
 for file in $files; do
   echo "Moving any previous dotfiles to $backup"
