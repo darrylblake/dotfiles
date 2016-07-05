@@ -1,0 +1,19 @@
+[user]
+  email = darryl@darrylblake.com
+  name = Darryl Blake
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  ps = push origin
+  pl = pull origin
+  plr = pull --rebase origin
+  df = diff
+  lg = log --graph --oneline --decorate --all
+  ls = ls-files
+  which-branch = rev-parse --abbrev-ref HEAD
+  amend = commit -a --amend
+  undo = reset --soft HEAD~ 
+[core]
+  editor = subl -n -w
