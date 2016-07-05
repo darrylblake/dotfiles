@@ -1,8 +1,5 @@
 #!/bin/bash
-############################
-# .make.sh
-# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
-############################
+# Creates symlinks from the home directory to dotfiles in ~/dotfiles
 
 dir=~/dotfiles
 backup=~/dotfiles_backup

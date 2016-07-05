@@ -15,5 +15,3 @@
   which-branch = rev-parse --abbrev-ref HEAD
   amend = commit -a --amend
   undo = reset --soft HEAD~ 
-[core]
-  editor = subl -n -w
